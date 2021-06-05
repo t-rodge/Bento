@@ -15,7 +15,6 @@
   --sbg: #e4e6e6; /* Cards color */
   --fg: #3a3a3a; /* Foreground color */
   --sfg: #3a3a3a; /* Sceondary Foreground color */
-  --tg: whitesmoke; /*Text color*/
 
   /* Image background  */
 
@@ -36,7 +35,7 @@
   --accent: #4b8ec4; /* Hover color */
   --bg: #19171a; /* Background color */
   --sbg: #201e21; /* Cards color */
-  --fg: #d8dee9; /* Foreground color */
+  --fg: whitesmoke; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.7),
@@ -62,6 +61,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+a:link{
+  text-decoration: none;
 }
 
 #themeButton {
@@ -198,12 +201,12 @@ body {
 .buttonLink__icon {
   width: 40px;
   height: 40px;
-  color: var(--tg);
+  color: var(--fg);
   margin: auto;
 }
 
 .buttonLink_description {
-  color: var(--tg);
+  color: var(--fg);
   font-size: 16px;
 }
 
