@@ -19,9 +19,9 @@
 
   /* Image background  */
 
-  /* Uncoment this section to get the 
-    image wallpaper. You can also 
-    change the --imgcol value 
+  /* Uncoment this section to get the
+    image wallpaper. You can also
+    change the --imgcol value
     to make the filter to your own */
 
   /* --imgbg: url(/img/wal.jpg); */
@@ -189,34 +189,23 @@ body {
 
 .buttonLink__link {
   display: flex;
+  width: 100%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .buttonLink__icon {
   width: 40px;
   height: 40px;
   color: var(--tg);
-  font-size: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
-
-/*span {
-  display: flex;
-  color: var(--tg);
-  vertical-align: middle;
-  align-items: center;
-  justify-content: flex-end;
-}*/
 
 .buttonLink_description {
-  display: flex;
   color: var(--tg);
-  margin-top: all;
+  font-size: 16px;
 }
-
 
 .buttonLink__link-1 {
   grid-row: 1;
