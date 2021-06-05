@@ -6,16 +6,16 @@ const themeToggle = document.querySelector("#themeButton");
 const enableDark = () => {
   document.body.classList.add("darktheme");
   localStorage.setItem("darkTheme", "enabled");
-  themeToggle.innerHTML = `<i id="themeButton__icon" data-feather="sun"></i>`;
-  feather.replace();
+  themeToggle.innerHTML = `<i id="themeButton__icon" data-ion="sun"></i>`;
+  ion.replace();
 };
 
 // Remove Dark theme
 const disableDark = () => {
   document.body.classList.remove("darktheme");
   localStorage.setItem("darkTheme", null);
-  themeToggle.innerHTML = `<i id="themeButton__icon" data-feather="moon"></i>`;
-  feather.replace();
+  themeToggle.innerHTML = `<i id="themeButton__icon" data-ion="moon"></i>`;
+  ion.replace();
 };
 
 //Toggle theme
