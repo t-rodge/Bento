@@ -6,16 +6,14 @@ const themeToggle = document.querySelector("#themeButton");
 const enableDark = () => {
   document.body.classList.add("darktheme");
   localStorage.setItem("darkTheme", "enabled");
-  themeToggle.innerHTML = `<i id="themeButton__icon" data-ion="sun"></i>`;
-  ion.replace();
+  themeToggle.innerHTML = `<ion-icon id="themeButton__icon" name="moon-outline"></ion-icon>`;
 };
 
 // Remove Dark theme
 const disableDark = () => {
   document.body.classList.remove("darktheme");
   localStorage.setItem("darkTheme", null);
-  themeToggle.innerHTML = `<i id="themeButton__icon" data-ion="moon"></i>`;
-  ion.replace();
+  themeToggle.innerHTML = `<ion-icon id="themeButton__icon" name="sunny-outline"></ion-icon>`;
 };
 
 //Toggle theme
