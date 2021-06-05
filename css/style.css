@@ -199,6 +199,22 @@ body {
   height: 40px;
   color: var(--tg);
   font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*span {
+  display: flex;
+  color: var(--tg);
+  vertical-align: middle;
+  align-items: center;
+  justify-content: flex-end;
+}*/
+
+.buttonLink_description {
+  display: flex;
+  color: var(--tg);
+  margin-top: all;
 }
 
 
