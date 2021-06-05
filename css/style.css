@@ -194,9 +194,14 @@ body {
 }
 
 .buttonLink__icon {
-  width: 23px;
+  /*width: 23px;
   height: 23px;
-  color: var(--fg);
+  color: var(--fg);*/
+}
+
+ion-icon {
+  size: 32px;
+  color: whitesmoke;
 }
 
 .buttonLink__link-1 {
