@@ -196,15 +196,15 @@ body {
 .buttonLink__icon {
   /*width: 23px;
   height: 23px;
-  color: var(--fg);*/
+  color: var(--fg);
   font-size: 32px;
-  color: whitesmoke;
+  color: whitesmoke;*/
 }
-/*
+
 ion-icon {
   font-size: 32px;
   color: whitesmoke;
-}*/
+}
 
 .buttonLink__link-1 {
   grid-row: 1;
