@@ -197,12 +197,14 @@ body {
   /*width: 23px;
   height: 23px;
   color: var(--fg);*/
-}
-
-ion-icon {
-  size: 32px;
+  font-size: 32px;
   color: whitesmoke;
 }
+/*
+ion-icon {
+  font-size: 32px;
+  color: whitesmoke;
+}*/
 
 .buttonLink__link-1 {
   grid-row: 1;
